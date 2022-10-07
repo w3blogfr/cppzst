@@ -31,7 +31,7 @@
   "license": "AGPL-3.0-or-later",
   "dependencies": {
     "bindings": "^1.5.0",
-    "nan": "^2.14.2",
+    "nan": "^2.16.0",
     "nyc": "^15.1.0",
     "segfault-handler": "^1.3.0"
   },
