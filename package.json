@@ -4,6 +4,7 @@
   "description": "Zstd wrapper for Nodejs 14 and above",
   "main": "index.mjs",
   "scripts": {
+    "preinstall": "git submodule update --init --recursive",
     "test": "mocha -t 5000",
     "build:dev": "node-gyp -j 16 build --debug",
     "build": "node-gyp -j 16 build",
